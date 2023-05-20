@@ -1,10 +1,9 @@
 import express from 'express';
 
 import MessageResponse from '../interfaces/MessageResponse';
-import { authenticateAdmin } from '../middlewares';
 import employees from './employees/employees.routes';
 import auth from './auth/auth.routes';
-import blogPostRoutes from "./news/blog-post.routes";
+import blogPostRoutes from "./blog/blog-post.routes";
 
 const router = express.Router();
 
