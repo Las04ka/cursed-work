@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# notice-board-nodejs
+# Cursed
 =======
 # Express API Starter with Typescript
 
